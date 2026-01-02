@@ -1,6 +1,7 @@
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
+import { Link } from "wouter";
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
@@ -59,6 +60,16 @@ export default function Navigation() {
             >
               遊戲規則
             </Button>
+            <Link href="/game-saves">
+              <Button variant="ghost" size="sm" data-testid="button-nav-game-saves">
+                遊戲存檔
+              </Button>
+            </Link>
+            <Link href="/diaries">
+              <Button variant="ghost" size="sm" data-testid="button-nav-diaries">
+                日記
+              </Button>
+            </Link>
           </div>
 
           <Button
@@ -106,6 +117,16 @@ export default function Navigation() {
             >
               遊戲規則
             </Button>
+            <Link href="/game-saves">
+              <Button variant="ghost" className="w-full justify-start" data-testid="button-mobile-nav-game-saves">
+                遊戲存檔
+              </Button>
+            </Link>
+            <Link href="/diaries">
+              <Button variant="ghost" className="w-full justify-start" data-testid="button-mobile-nav-diaries">
+                日記
+              </Button>
+            </Link>
           </div>
         )}
       </div>

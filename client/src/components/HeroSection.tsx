@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowDown } from "lucide-react";
-import heroImage from "@assets/generated_images/Bright_block_world_hero_banner_589f73fa.png";
+
+const heroImage = "/attached_assets/generated_images/Bright_block_world_hero_banner_589f73fa.png";
 
 export default function HeroSection() {
   const scrollToIntro = () => {

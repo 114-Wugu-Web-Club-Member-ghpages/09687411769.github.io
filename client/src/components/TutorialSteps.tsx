@@ -1,6 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Check } from "lucide-react";
-import gameplayImage from "@assets/generated_images/Block_world_gameplay_screenshot_4f111438.png";
+
+const gameplayImage = "/attached_assets/generated_images/Block_world_gameplay_screenshot_4f111438.png";
 
 const steps = [
   {

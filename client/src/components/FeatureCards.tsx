@@ -1,8 +1,9 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import controlsIcon from "@assets/generated_images/Block_style_game_controls_icon_b493691d.png";
-import treasureIcon from "@assets/generated_images/Block_style_treasure_chest_icon_880a988d.png";
-import characterIcon from "@assets/generated_images/Block_style_player_character_icon_61813685.png";
-import itemsIcon from "@assets/generated_images/Block_style_game_items_icon_1cb36e14.png";
+
+const controlsIcon = "/attached_assets/generated_images/Block_style_game_controls_icon_b493691d.png";
+const treasureIcon = "/attached_assets/generated_images/Block_style_treasure_chest_icon_880a988d.png";
+const characterIcon = "/attached_assets/generated_images/Block_style_player_character_icon_61813685.png";
+const itemsIcon = "/attached_assets/generated_images/Block_style_game_items_icon_1cb36e14.png";
 
 const features = [
   {
